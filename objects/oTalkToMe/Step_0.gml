@@ -11,48 +11,39 @@ if (nearby) {
 	if chosenBranch != "" {
 
 
-	    if chosenBranch == "It glows blue." {
+	    if chosenBranch == "Branch 1." {
 			script_execute(Branch, id, branch1);
+      
+      //custom behavior for branch 1 here
+      
 	    } 
 	
-		if chosenBranch == "It glows green." {
+		if chosenBranch == "Branch 2." {
 			script_execute(Branch, id, branch2);
+            
+      //custom behavior for branch 1 here
+      
 	    }
 	
-	    if chosenBranch == "It glows yellow." {
+	    if chosenBranch == "Branch 3." {
 			script_execute(Branch, id, branch3);
+            
+      //custom behavior for branch 1 here
+      
 	    } 
 	
 		if chosenBranch == "Branch 4." {
 			script_execute(Branch, id, branch4);
+            
+      //custom behavior for branch 1 here
+      
 		
 		}
-		if chosenBranch == "Branch 4." {
-			script_execute(Branch, id, branch4);
-		
-		}
-		if chosenBranch == "Branch 4." {
-			script_execute(Branch, id, branch4);
-		
-		}
-		if chosenBranch == "Branch 4." {
-			script_execute(Branch, id, branch4);
-		
-		}
-		if chosenBranch == "Branch 4." {
-			script_execute(Branch, id, branch4);
-		
-		}
-		if chosenBranch == "Branch 4." {
-			script_execute(Branch, id, branch4);
-		
-		}
-	
-	}
+}
 
 
 	if ((keyboard_check_pressed(ord("X")))) {
-		if screenplay[counter][1] == "SUICIDE"{//end behaviour
+		if screenplay[counter][1] == "TERMINATE"{//end behaviour
 			counter = 1;
 			alive = !alive;
 		}
