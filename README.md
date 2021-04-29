@@ -1,5 +1,5 @@
 # "Screenplay"
-##A native, script-driven, branching dialogue/narrative system for GMS:2
+A native, script-driven, branching dialogue/narrative system for GMS:2
 
 I wanted to make a script-driven, branching-capable dialogue system with the ability to easily trigger in-game changes in real time. I wanted to optimize the script-to-game pipeline as much as possible while using native GMS:2 code and functionality with no outside libraries or dependencies.
 
